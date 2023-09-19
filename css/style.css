@@ -1,0 +1,70 @@
+/* style.css */
+/* pääotsikko siniseksi */
+h1 {
+    color: blue;
+}
+
+/* pienemmöt otsikot */
+h2 {
+    color: darkred;
+}
+
+h3 {
+    color: darkred;
+}
+
+/* Listat pinkillä */
+ul {
+    color: pink;
+}
+
+/* tummanpunaisella 2 riviä määrittelemällä SPAN */
+.tp-teksti {
+    color: darkred; 
+}
+
+
+
+/* punaiseksi teksti */
+.punainen-teksti {
+    color: red;
+}
+
+/* väli tekstiin ulkoreunasta */
+body {
+    margin: 0 auto;
+    max-width: 50em;
+  }
+
+  /* tekstimuodot */
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
+  /* välit tekstien välille */
+  body {
+    line-height: 1.5;
+    padding: 4em 1em;
+  }
+  
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+
+  /* vaihdetaan väri */
+  body {
+    color: #555;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  /* nimet vaihdettu */
+  .nimet {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    background: #eee;
+  }
